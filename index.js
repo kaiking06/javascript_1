@@ -41,3 +41,60 @@ cats.unshift('cat4');
 console.log(cats)
 
 //shift method remove an item at the beginning of an array
+cats.shift();
+console.log(cats)
+
+//indexof
+students.indexOf('jerry')
+console.log(students.indexOf('jerry'))
+
+//slice method is used to copy different portion of an array
+
+const friends=['manoh','cross','bash','magna','plies'];
+const closeFriends=friends.slice(1,4)
+console.log(friends)
+console.log(closeFriends)
+
+/// Array Quiz////
+/*
+const books= ['Harry Potter', 'Hobbit', 'Hunger Games', 'Little Prince'];
+ 1) Access the last elements of the books array usiing the lenght 
+ of the array and print it to the console
+
+
+ const films = [
+    ['Hobbit1', 'Hobbit2', 'Hobbit3'],
+    ['matrix1', 'matrix2', 'matrix3'],
+    ['godFather1', 'godFather2', 'godFather3']
+ ]
+ 2) Print the godFather3 film from the film array to the console
+ */
+
+ //Solutions to Quiz//
+/*
+ const books= ['Harry Potter', 'Hobbit', 'Hunger Games', 'Little Prince'];
+ 1) Access the last elements of the books array using the lenght 
+ of the array and print it to the console
+ */
+
+ const books= ['Harry Potter', 'Hobbit', 'Hunger Games', 'Little Prince'];
+ console.log(books[books.length-1])
+
+/*
+ const films = [
+    ['Hobbit1', 'Hobbit2', 'Hobbit3'],
+    ['matrix1', 'matrix2', 'matrix3'],
+    ['godFather1', 'godFather2', 'godFather3']
+ ]
+ 2) Print the godFather3 film from the film array to the console
+ */
+
+ const films = [
+    ['Hobbit1', 'Hobbit2', 'Hobbit3'],
+    ['matrix1', 'matrix2', 'matrix3'],
+    ['godFather1', 'godFather2', 'godFather3']
+ ]
+console.log(films[2][2]);
+
+
+
