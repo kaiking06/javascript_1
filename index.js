@@ -149,15 +149,77 @@ function cooks(man) {
 }
 console.log(cooks);
 
+////////////
+
 function children(mende, makane ,iya) {
+   if (mende=== children) {
+      return (mend)
+   }
    return mende===children ('if mende is children');
 
 
 }
 console.log(children);
 
+///////////////////////////////////
+
 function toDoList(read, sleep, dance) {
    console.log('read' + ' ' +'sleep' +' '+ 'dance')
 
 }
 toDoList();
+/////////////////////////
+
+function calculateAge(birthYear) {
+   return 2020-birthYear;
+}
+const Age= calculateAge(1993);
+console.log('this is the age',Age);
+
+
+/////////////////////////
+
+function enterCafe(age){
+   if (age <19) {
+      return 'you cannot enter the cafe';
+   
+   } 
+   return 'you can enter the cafe';
+}
+const cafe= enterCafe(17);
+console.log(cafe)
+
+//////////////function Quiz/////////////
+/*
+!. Create a function called 'subtraction', this function takes two arguements X and Y, then subtracts one of these arguments from the other and returns the result. The console log the result 
+
+///////////////solution///////
+*/
+
+function subtraction(X,Y) {
+   return Y - X;
+}
+const result1= subtraction(30, 74 );
+console.log(result1);
+
+
+/*
+2. Declare a function called 'Is odd', this function is gonna take one argument and it is gonna check if that argument is an 'odd number', then it needs to return a boolean and console that
+
+/////////solution//////
+*/
+
+const isOdd = function (number) {
+if (number % 2 !==0) {
+    return true;
+}
+  return false;
+}
+console.log(isOdd(5));
+
+/*
+3. Declare a funtion called 'addition',it is gonna take one argument then it needs to sum up all the numbers from 1 to that argument and return the total value. Then you need to console log that total.
+
+////////solution//////
+*/
+
