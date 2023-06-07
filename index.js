@@ -96,5 +96,68 @@ const books= ['Harry Potter', 'Hobbit', 'Hunger Games', 'Little Prince'];
  ]
 console.log(films[2][2]);
 
+/////////////////////functions/////////////////
+
+///function Declaration/////////////
 
 
+function kaiKing() {
+   console.log('kai');
+}
+
+kaiKing();
+
+
+function myLines() {
+   console.log('hello world');
+   console.log('how are you'),
+   console.log('my name is luther');
+}
+
+myLines();
+
+
+////////function arguements//////////////
+
+function sayHello(name) {
+      console.log('hi' + ' ' +  name);
+}
+
+sayHello('king');
+sayHello('kai');
+sayHello('luther');
+
+function cube(number) {
+   console.log(number * number * number);
+}
+
+cube(4);
+cube(5);
+
+/////////////functions return keywords/////////////
+
+
+function cubes(number) {
+   return (number * number * number);
+}
+
+console.log(cubes(4));
+
+
+function cooks(man) {
+   return cooks===pan
+}
+console.log(cooks);
+
+function children(mende, makane ,iya) {
+   return mende===children ('if mende is children');
+
+
+}
+console.log(children);
+
+function toDoList(read, sleep, dance) {
+   console.log('read' + ' ' +'sleep' +' '+ 'dance')
+
+}
+toDoList();
